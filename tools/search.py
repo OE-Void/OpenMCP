@@ -1,5 +1,5 @@
 import asyncio
-from providers.searchit import SearchTool
+from seekify import Search
 
 async def search(
     query: str,
@@ -26,7 +26,7 @@ async def search(
         color: Image color filter (optional, images only).
         proxy: Proxy URL string (optional).
     """
-    tool = SearchTool(
+    tool = Search(
         query=query,
         max_results=max_results,
         search_type=search_type,
