@@ -4,7 +4,7 @@
 use proxy to avoid rate-limits
 searchit already have the proxy as a option you can check the repo from link below
 
-link: https://github.com/OE-Void/Search-IT
+link: https://github.com/Parveshiiii/Search-IT
 """
 try:
     from searchit import Search
